@@ -1,0 +1,182 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+    z-index: 0;
+}
+select{
+    border: none;
+    outline: none;
+}
+option{
+background-color: #a8a8a8;
+}
+
+body {
+	font-family: 'SF UI Display';
+    font-weight: normal;
+    font-style: normal;
+	background-image: url("../images/bg.png");
+	background-size: cover;
+	color: white;
+	padding-top: 50px;
+	background-repeat: no-repeat;
+
+}
+a {
+	text-decoration: none;
+	color: inherit;
+}
+ul {
+	list-style: none;
+}
+.conteiner {
+	max-width: 1259px;
+	margin: 0 auto;
+}
+
+header nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center
+	
+}
+header nav ul {
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+nav img {
+	position: absolute;
+	left: 0;
+	right: 0; 
+	margin: 0 auto;
+	top: 24px;
+}
+
+.enter {
+	padding-left:60px;
+	padding-right:60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: transparent;
+	border: 2px solid white;
+	color: white;
+	font-size: 20px;
+	font: inherit;
+	text-transform: uppercase;
+	border-radius: 4px;
+	margin-right: 6px;
+	cursor: pointer;
+}
+
+.reg {
+	padding-left:60px;
+	padding-right:60px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #dc3436;
+	border: 2px solid #dc3436;
+	color: white;
+	font-size: 20px;
+	font: inherit;
+	text-transform: uppercase;
+	border-radius: 4px;
+	cursor: pointer;
+}
+
+.title {
+	text-align: center;
+	font-size: 33px;
+	font-weight: bold;
+	margin-top: 55px;
+	text-transform: uppercase;
+}
+
+
+
+.r {
+	margin-top: 50px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap:wrap;
+}
+
+.r .h, .last {
+	width: 45%;
+	background-color: transparent;
+	border: none;
+	border-bottom: 2px solid gray;
+	outline: none;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-top: 10px;
+	font-size: 20px;
+	color: white;
+}
+.r .h::placeholder{
+	font-size: 18px;
+	color: gray;
+	font-weight: 100;
+}
+.r .h:focus{
+	border-color: white;
+}
+.r .last:focus{
+	border-color: white;
+}
+.r .last {
+	width: 100%;
+}
+
+
+.agr {
+	margin: 30px auto;
+	font-size: 20px;
+	width: 100%;
+	text-align: center;
+	position: relative;
+}
+.agr a {
+	text-decoration: underline;
+}
+
+.agr::before {
+	content: "";
+	width: 19px;
+	height: 19px;
+	position: absolute;
+	border: 3px solid white;
+	vertical-align: middle;
+	left: 33%;
+	top: 0px;
+}
+input[type="checkbox"]:checked + .agr::before {
+	background-color: red;
+	border-color: red;
+}
+
+.registr {
+	font: inherit;
+	margin: 0 auto;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 3px solid #b93a39;
+	border-radius: 3px;
+	background-color: #dc3436;
+	color: white;
+	font-size: 30px;
+	cursor: pointer;
+	padding-top: 10px;
+}
+
+footer {
+	margin: 30px auto;
+	text-align: center;
+}
+footer p {
+	font-size: 20px;
+}

@@ -1,0 +1,100 @@
+@media only screen and (max-width: 768px) {
+  .conteiner {
+	  max-width: 700px;
+  }
+  nav {
+	  flex-direction: column;
+  }
+  .title {
+	  font-size: 30px;
+  }
+  nav ul {
+	margin-bottom: 20px;
+  }
+  body {
+	padding-top: 140px;
+  }
+  .agr::before {
+	left: 20%;
+	}
+}
+
+@media only screen and (max-width: 425px) {
+  .conteiner {
+	  max-width: 380px;
+  }
+  .title {
+    font-size: 25px;
+}
+
+  .agr::before {
+    left: -4%;
+}
+
+	.r {
+		flex-direction: column;
+		margin-top: 0;
+	}
+	.r .h {
+		width: 100%;
+	}
+	.r {
+  
+    justify-content: baseline;
+     flex-wrap: no-wrap; 
+}
+
+	.hui {
+		display: flex;
+	    justify-content: center;
+	}
+	.registr {
+		margin: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	
+}
+
+@media only screen and (max-width: 415px) {
+  .conteiner {
+	  max-width: 350px;
+  }
+ header nav ul {
+	      width: 340px;
+  }
+  .reg, .enter {
+	  padding-left: 20px;
+	  padding-right: 20px;
+  }
+	.agr {
+		font-size: 18px;
+	}
+	.agr::before {
+		width: 15px;
+		height: 15px;
+		left: -1%;
+	}
+}
+
+
+@media only screen and (max-width: 415px) {
+  .conteiner {
+	  max-width: 300px;
+  }
+	.registr {
+		font-size: 25px;
+	}
+	.agr::before {
+		width: 15px;
+		height: 15px;
+		left: 8%;
+	}
+	header nav ul {
+    width: 307px;
+	font-size: 18px;
+}
+
+	
+}

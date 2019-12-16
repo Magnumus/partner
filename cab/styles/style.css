@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+*{
+    font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+    outline: none;
+}
+.change_form{
+    margin-left: 6%;
+}
+.change_form input{
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+}
+h2{    overflow-y: hidden;
+}
+#trekkode{
+    margin-top: 5%;
+    width: 100%;
+    height: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#trekkode p:first-child{
+    font-size: 1em;
+    overflow-y: hidden;
+    color: #fff;
+}
+#trekkode p:last-child{
+    background-color: #575757;
+    opacity: 0.6;
+    font-size: 1.8em;
+    width: 60%;
+    height: 35px;
+    text-align: center;
+    border-radius: 5px;
+    color: red;    
+}
+#manager{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #191919;
+}
+#manager p{
+    color: #575757;
+    font-size: 16px;
+}
+#manager span{color: #575757;}
+.form{ 
+    display: flex;
+    width:50%;
+    justify-content: center;
+    flex-direction: column;
+    align-items: space-between;
+    overflow-y: hidden;
+
+}
+.form p{
+    font-size: 1.3em;
+    margin-left: 12%;    overflow-y: hidden;
+
+}
+.form input{
+    margin: 0px 12%;    
+    border-radius: 5px;
+    height: 30px;    overflow-y: hidden;
+
+}
+textarea{
+    margin: 1% 12% !important; 
+    border-radius: 5px;    overflow-y: hidden;
+
+}
+.e{
+    background-color: #f1f1f1;
+    border: 1px solid #910b05;    overflow-y: hidden;
+
+}
+input{border: 1px solid #910b05;    overflow-y: hidden;
+}
+textarea{border: 1px solid #910b05;    overflow-y: hidden;
+}
+.e select{border: 1px solid #910b05;    overflow-y: hidden;
+}
+#content{
+    display: block;    overflow-y: hidden;
+
+    width: 100%;
+    background-image: url(../images/cas.png);
+    height: 110vh;
+    font-family: 'Roboto', sans-serif;
+
+}
+#main{
+width: 80%;
+    z-index: 100;    overflow-y: hidden;
+
+    background: url(../images/photo5251731275218266647.jpg);
+    float: right;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+
+}
+#sidebar{
+  width: 20%; 
+font-family: 'Roboto', sans-serif;    overflow-y: hidden;
+
+}
+#sidebar #logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;    overflow-y: hidden;
+
+}
+#menu{
+    margin-top: 20%;
+    color: #fff;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+
+}
+#menu ul{
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+
+}
+a{
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+
+}
+a:visited{
+    color: #fff;    overflow-y: hidden;
+
+}
+#menu ul li a{
+    width: 100%;
+    font-size: 1.5em;
+    height: 50px;
+    line-height: 50px;padding-left: 5%;
+    font-family: 'Roboto', sans-serif;
+    overflow-y: hidden;
+
+}
+#menu ul li:hover{
+  background-color: #de413a;    overflow-y: hidden;
+
+}
+#header{
+    height: 8%;
+    background-color: #de413a;
+    color: #fff;
+    font-size: 1.5em;    overflow-y: hidden;
+
+}
+#header p{
+    margin-top: 1.4% !important;
+    margin-left: 35%;
+    float: left;    overflow-y: hidden;
+
+}
+.exit{
+    float: right;
+    width: 32px;
+    height: 100%;
+    margin-top: 1%;
+    margin-right: 2%;    overflow-y: hidden;
+
+}
+.exitBtn{
+    background-color: transparent;
+    background-image: url(../images/exit-to-app-button.svg);
+    background-size: cover;
+    width: 32px;
+    height: 32px;
+    z-index: 3;
+    border: none;    overflow-y: hidden;
+
+    cursor: pointer;
+}
+.zagol{
+    margin-top: 5%;    overflow-y: hidden;
+
+    margin-left: 6%;
+}
+table{
+    margin-left: 6%;
+    margin-top: 3%;    overflow-y: hidden;
+
+    border-radius: 5px ;
+}
+td, th{
+    text-align: left;
+    color: #333;    overflow-y: hidden;
+
+    width: 20px !important;
+}
+td{
+    width: 75%;
+    background-color: #fff;    overflow-y: hidden;
+
+}
+th{
+    width:25%;
+    border-right: 1px solid #910b05;    overflow-y: hidden;
+
+    color: #fff;
+}
+.tr{
+    background-color: #de413a;    overflow-y: hidden;
+
+}
